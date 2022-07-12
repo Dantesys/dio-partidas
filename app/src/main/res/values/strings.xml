@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">DIO-Aula</string>
-    <string name="ol_galera">Hello World</string>
+    <string name="app_name">Match Simulator</string>
+    <string name="bot_o_de_simula_o">Match Simulator Button</string>
+    <string name="time_visitante">Away team image</string>
+    <string name="time_casa">Home team image</string>
+    <string name="x" translatable="false">X</string>
 </resources>
