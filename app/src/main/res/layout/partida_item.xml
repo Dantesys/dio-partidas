@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_default">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/time_fora_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_default"
+            android:layout_marginBottom="@dimen/margin_default"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/time_fora"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="@+id/time_fora"
+            app:layout_constraintTop_toBottomOf="@+id/time_fora"
+            tools:text="TextView" />
+
+        <ImageView
+            android:id="@+id/time_fora"
+            android:layout_width="@dimen/team_image"
+            android:layout_height="@dimen/team_image"
+            android:layout_marginTop="@dimen/margin_default"
+            android:layout_marginEnd="@dimen/margin_default"
+            android:contentDescription="@string/time_visitante"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_default"
+            android:layout_marginEnd="@dimen/margin_default"
+            android:text="@string/x"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="@+id/placar_casa"
+            app:layout_constraintEnd_toStartOf="@+id/placar_fora"
+            app:layout_constraintStart_toEndOf="@+id/placar_casa"
+            app:layout_constraintTop_toTopOf="@+id/placar_casa" />
+
+        <TextView
+            android:id="@+id/placar_casa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_default"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="@+id/time_casa"
+            app:layout_constraintStart_toEndOf="@+id/time_casa"
+            app:layout_constraintTop_toTopOf="@+id/time_casa"
+            tools:text="1" />
+
+        <TextView
+            android:id="@+id/time_casa_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_default"
+            android:layout_marginBottom="@dimen/margin_default"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/time_casa"
+            app:layout_constraintStart_toStartOf="@+id/time_casa"
+            app:layout_constraintTop_toBottomOf="@+id/time_casa"
+            tools:text="TextView" />
+
+        <ImageView
+            android:id="@+id/time_casa"
+            android:layout_width="@dimen/team_image"
+            android:layout_height="@dimen/team_image"
+            android:layout_marginStart="@dimen/margin_default"
+            android:layout_marginTop="@dimen/margin_default"
+            android:contentDescription="@string/time_casa"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/placar_fora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_default"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="@+id/time_fora"
+            app:layout_constraintEnd_toStartOf="@+id/time_fora"
+            app:layout_constraintTop_toTopOf="@+id/time_fora"
+            tools:text="0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
