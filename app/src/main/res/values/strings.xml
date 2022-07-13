@@ -4,4 +4,5 @@
     <string name="time_visitante">Away team image</string>
     <string name="time_casa">Home team image</string>
     <string name="x" translatable="false">X</string>
+    <string name="error">Error Wrong Way</string>
 </resources>

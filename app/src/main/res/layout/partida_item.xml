@@ -8,7 +8,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/card_bk">
 
         <TextView
             android:id="@+id/time_fora_nome"
@@ -41,7 +42,7 @@
             android:layout_marginStart="@dimen/margin_default"
             android:layout_marginEnd="@dimen/margin_default"
             android:text="@string/x"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             app:layout_constraintBottom_toBottomOf="@+id/placar_casa"
             app:layout_constraintEnd_toStartOf="@+id/placar_fora"
             app:layout_constraintStart_toEndOf="@+id/placar_casa"

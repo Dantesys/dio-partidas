@@ -4,4 +4,5 @@
     <string name="bot_o_de_simula_o">Botão de simulador de partidas</string>
     <string name="time_visitante">Imagem do time visitante</string>
     <string name="time_casa">Imagem do time madante</string>
+    <string name="error" >Deu erro e agora?</string>
 </resources>
